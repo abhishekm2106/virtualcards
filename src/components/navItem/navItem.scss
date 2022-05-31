@@ -1,0 +1,13 @@
+.nav-item {
+    padding: 1rem 2px;
+    color: rgb(107, 107, 107);
+    margin-right: 2rem;
+    text-transform: capitalize;
+}
+
+.current-tab {
+    border-bottom: 3px solid var(--color-red);
+    color: black;
+    font-weight: bold;
+    transition: all .3s ease;
+}

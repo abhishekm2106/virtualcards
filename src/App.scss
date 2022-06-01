@@ -1,3 +1,25 @@
 .App {
     padding: 4rem;
+    position: relative;
+    min-height: 100vh;
+}
+
+.credit {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+@media only screen and (max-width: 1000px) {
+    .App {
+        padding: 3rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .App {
+        padding: 2rem 1.2rem;
+    }
 }

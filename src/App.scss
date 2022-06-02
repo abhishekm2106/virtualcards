@@ -2,6 +2,21 @@
     padding: 4rem;
     position: relative;
     min-height: 100vh;
+
+    .search-input {
+        // py-1.5 outline-none relative bg-transparent cursor-pointer relative z-10
+        padding: .3rem .6rem;
+        outline: none;
+        position: relative;
+        background: transparent;
+        z-index: 10;
+
+    }
+
+    .search-input:focus {
+        border-radius: 5px;
+        outline: 1px solid rgba(202, 202, 202, 0.781);
+    }
 }
 
 .credit {
